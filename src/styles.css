@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;700&display=swap');
+
+#map {
+    height: 400px; /* Ajusta la altura según prefieras */
+    width: 100%;   /* Ocupa todo el ancho del contenedor */
+    margin: 20px auto; /* Centra el mapa horizontalmente */
+    border: 5px solid #D8A76F;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title-spacing{
+    margin-top: 40px;
+    margin-bottom: 30px; /* Espacio antes del título */
+  }
+  
+  /* Estilos para pantallas pequeñas (ej. móviles) */
+  @media (max-width: 768px) {
+      #map {
+          height: 300px; /* Reduce la altura en pantallas pequeñas */
+      }
+  }
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+      color: rgba(0,0,0,.55);
+  }
+  .bg-light {
+      background-color: #FFF8ED!important;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF8ED; /* Crema suave */
+    color: #332211; /* Marrón oscuro */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #D8A76F; /* Marrón dorado */
+}
+
+a {
+    color: #A37547; /* Marrón rojizo */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenedor del mapa */
+#map {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Ejemplo de un botón */
+.button {
+    background-color: #A37547; /* Marrón rojizo */
+    color: #FFF8ED; /* Crema suave */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700; /* Negrita */
+}
+
+
+/* Clases de utilidad para los colores de la paleta */
+.primary-color { color: #D8A76F; }
+.secondary-color { color: #A37547; }
+.accent-color { color: #F2E6D9; }
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.correo-contacto {
+    margin: 0 0px;
+}
+
+#itinerary {
+    padding: 40px 0;
+}
+
+#itinerary h2 {
+    text-align: center;
+}
+
+.stage {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.stage h3 {
+    margin-top: 0;
+}
+
+/* Estilos para la sección de contacto */
+#contact {
+    padding: 40px 0; /* Espacio interno */
+    background-color: #f8f0e3; /* Color de fondo cálido */
+}
+
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio inferior al título */
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around; /* Distribuye el contenido */
+    flex-wrap: wrap; /* Permite que se ajuste en pantallas pequeñas */
+}
+
+.contact-person {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fdfaf5;
+}
+
+
+.contact-person h3 {
+    margin-top: 0;
+    color: #A37547; /* Color para los nombres - ajusta a tu paleta */
+}
+
+.contact-link {
+    color: #3388ff; /* Color para los enlaces - ajusta a tu paleta */
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
