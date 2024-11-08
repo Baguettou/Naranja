@@ -25,6 +25,20 @@ module.exports = {
                     
                 ]
             },
+            {
+                test: /\.css$/i,
+                    use: [
+                        'style-loader',
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                url: false, // Necesario para evitar que css-loader modifique las urls de las fuentes
+                            }
+                        }
+                    ]
+            },
+
+            
         ],
     },
     plugins:[

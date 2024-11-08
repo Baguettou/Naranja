@@ -11,26 +11,27 @@
 
 .title-spacing{
     margin-top: 40px;
-    margin-bottom: 30px; /* Espacio antes del título */
-  }
+    margin-bottom: 0px;
+}
   
-  /* Estilos para pantallas pequeñas (ej. móviles) */
-  @media (max-width: 768px) {
-      #map {
-          height: 300px; /* Reduce la altura en pantallas pequeñas */
-      }
-  }
+/* Estilos para pantallas pequeñas (ej. móviles) */
+@media (max-width: 768px) {
+    #map {
+        height: 300px; /* Reduce la altura en pantallas pequeñas */
+    }
+}
 
 .navbar-light .navbar-brand {
     color: rgba(0,0,0,.9);
   }
   
-  .navbar-light .navbar-nav .nav-link {
-      color: rgba(0,0,0,.55);
-  }
-  .bg-light {
-      background-color: #FFF8ED!important;
-  }
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+}
+
+.bg-light {
+    background-color: #FFF8ED!important;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -84,6 +85,10 @@ a:hover {
     padding: 0 20px;
 }
 
+.footer-container {
+    margin: 20px;
+}
+
 .correo-contacto {
     margin: 0 0px;
 }
@@ -97,8 +102,8 @@ a:hover {
 }
 
 .stage {
-    margin-bottom: 20px;
     padding: 20px;
+    margin: 1px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -109,6 +114,7 @@ a:hover {
 
 /* Estilos para la sección de contacto */
 #contact {
+    text-align: center;
     padding: 40px 0; /* Espacio interno */
     background-color: #f8f0e3; /* Color de fondo cálido */
 }
@@ -120,31 +126,69 @@ a:hover {
 }
 
 .contact-info {
-    display: flex;
+    display: inline-block;
     justify-content: space-around; /* Distribuye el contenido */
     flex-wrap: wrap; /* Permite que se ajuste en pantallas pequeñas */
-}
-
-.contact-person {
     text-align: center; /* Centra el texto */
-    margin-bottom: 20px;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #fdfaf5;
 }
 
-
-.contact-person h3 {
-    margin-top: 0;
-    color: #A37547; /* Color para los nombres - ajusta a tu paleta */
-}
-
 .contact-link {
-    color: #3388ff; /* Color para los enlaces - ajusta a tu paleta */
+    color: #fd934c; /* Color para los enlaces - ajusta a tu paleta */
     text-decoration: none;
 }
 
 .contact-link:hover {
     text-decoration: underline;
+}
+
+.accordion-item {
+    background-color: #fdfaf5; /* Color de fondo similar al de los contactos */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.accordion-button {
+    background-color: #A37547; /* Color marrón rojizo */
+    color: #FFF8ED; /* Color crema */
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+     background-color: #D8A76F; /* Marrón dorado cuando está abierto */
+}
+
+.accordion-body {
+    background-color: #FFF8ED;
+    padding: 20px;
+
+}
+
+/* Estilo para el botón de calendario */
+.btn-calendar {
+    background-color: #A37547;
+    color: #FFF8ED;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Espacio superior */
+    font-weight: bold;
+}
+.btn-calendar:hover {
+background-color: #D8A76F; /* Marrón dorado al pasar el ratón */
+}
+
+/* Estilos para las imágenes dentro del acordeón */
+.accordion-body img {
+max-width: 100%; /* Para que las imágenes no se desborden */
+height: auto;
+display: block; /* Para centrar la imagen */
+margin: 10px auto; /* Margen superior e inferior, centrado horizontalmente */
+border-radius: 5px;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }

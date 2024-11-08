@@ -19,6 +19,7 @@
     "devDependencies": {
         "css-loader": "^6.7.1",
         "html-webpack-plugin": "^5.5.0",
+        "mime-types": "^2.1.35",
         "style-loader": "^3.3.1",
         "svg-url-loader": "^8.0.0",
         "webpack": "^5.74.0",
