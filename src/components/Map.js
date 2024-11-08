@@ -1,5 +1,4 @@
 import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
 import marker from '../assets/marker.svg';
 import waypoints from '../data/waypoints';
 
