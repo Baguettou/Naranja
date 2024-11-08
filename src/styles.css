@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 #map {
     height: 400px; /* Ajusta la altura según prefieras */
@@ -34,14 +35,14 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', 'Montserrat', sans-serif;
     background-color: #FFF8ED; /* Crema suave */
     color: #332211; /* Marrón oscuro */
     margin: 0; /* Elimina márgenes por defecto */
 }
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', 'Playfair Display', serif;
     color: #D8A76F; /* Marrón dorado */
 }
 
@@ -89,10 +90,6 @@ a:hover {
     margin: 20px;
 }
 
-.correo-contacto {
-    margin: 0 0px;
-}
-
 #itinerary {
     padding: 40px 0;
 }
@@ -103,10 +100,10 @@ a:hover {
 
 .stage {
     padding: 20px;
-    margin: 1px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
 
 .stage h3 {
     margin-top: 0;
