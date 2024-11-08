@@ -59,7 +59,7 @@
 
     <main>
         <div class="container">
-            <section">
+            <section  id="hero">
                 <div id="map" style="height: 400px;"></div> <!--- Ajustar la altura -->
             </section>
         </div>
@@ -123,10 +123,10 @@
                                 <p>Alojamiento en el Hostal Villa San Rafael (habitación cuádruple o doble).</p>
 
                                 <div>
-                                    <button onclick="addEventToCalendar(
+                                    <button class="button" onclick="addEventToCalendar(
                                         'Llegada a Barichara', 
-                                        new Date('2024-12-24T10:00'), // Fecha y hora de inicio (ajusta según tu itinerario)
-                                        new Date('2024-12-24T12:00'), // Fecha y hora de fin (opcional, ajusta o elimina si no hay)
+                                        new Date('2024-12-24T10:00'), // Fecha y hora de inicio
+                                        new Date('2024-12-24T12:00'), // Fecha y hora de fin
                                         'Barichara, Santander, Colombia', 
                                         'Llegada a Barichara, check-in en el hotel y tiempo libre para explorar el pueblo.'
                                     )">Añadir a Google Calendar</button>
@@ -218,12 +218,17 @@
                 <h2>Contacto</h2>
                 <div class="contact-info">
 
+
                     <div class="contact-person">
                         <p><a href="mailto:pfranco193@unab.edu.co" class="contact-link">pfranco193@unab.edu.co</a></p>
                         <p><a href="tel:+573118649471" class="contact-link">Teléfono: +57 311 864 9471</a></p>
+                    </div>
+                    <div class="w-100 m-2"></div>
+                    <div class="contact-person">
                         <p><a href="mailto:marguello843@unab.edu.co" class="contact-link">marguello843@unab.edu.co</a></p>
                         <p><a href="tel:+573155541384" class="contact-link">Teléfono: +57 315 554 1384</a></p>
                     </div>
+
 
                 </div>
             </div>
